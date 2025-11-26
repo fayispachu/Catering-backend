@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 4000;
 app.use(
   cors({
     origin: [
-      "https://canopuscompany.netlify.app", // client URL
+      "https://canopuscatering.netlify.app/", // client URL
       "http://localhost:5173",
     ],
     credentials: true,
